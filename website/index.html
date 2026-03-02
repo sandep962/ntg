@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACK∞GRAVITY | Defy the Limits. Code the Impossible.</title>
+    <meta name="description"
+        content="India's most thrilling and premium hybrid hackathon. Solve real-world challenges, win from a ₹4,00,000+ prize pool, and experience the offline finals at a premium hostel in Bangalore.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Dynamic Background -->
+    <div class="bg-animation"></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">HACK∞GRAVITY</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#tracks">Tracks</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#prizes">Prizes</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <a href="apply.html" class="btn btn-primary nav-cta">Register Now</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="badge">Hybrid Hackathon 2026</div>
+            <h1 class="hero-title">Defy the Limits.<br><span class="gradient-text">Code the Impossible.</span></h1>
+            <p class="hero-subtitle">India's most thrilling and premium hybrid hackathon. We provide the launchpad; you
+                provide the gravity-defying ideas.</p>
+
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <span class="count" id="days">00</span>
+                    <span class="label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="count" id="hours">00</span>
+                    <span class="label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="count" id="mins">00</span>
+                    <span class="label">Mins</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="count" id="secs">00</span>
+                    <span class="label">Secs</span>
+                </div>
+            </div>
+
+            <div class="hero-actions">
+                <a href="apply.html" class="btn btn-glow">Apply for Round 1</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Overview / About Section -->
+    <section id="about" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">The <span class="gradient-text">Ultimate</span> Offline Experience</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Forget ordinary hackathons in cramped college halls. <strong>HACK∞GRAVITY</strong> elevates the
+                        hackathon experience to unprecedented heights.</p>
+                    <p>We combine grueling technical challenges with a luxurious, premium environment to foster
+                        unparalleled innovation. With an expected participation of over 5,000+ students in Round 1,
+                        making it to the Top 40 means you are among the top 1% of student developers in the country.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card glass-panel">
+                        <i data-lucide="globe" class="feature-icon"></i>
+                        <h3>Round 1: Online</h3>
+                        <p>Idea Submission. Open to all college students across India. Submit your boldest ideas.</p>
+                    </div>
+                    <div class="feature-card glass-panel">
+                        <i data-lucide="sparkles" class="feature-icon"></i>
+                        <h3>Finals: Offline in Bangalore</h3>
+                        <p>Only the TOP 40 Teams invited to a premium hostel in Bangalore for 24 hours of hacking.</p>
+                    </div>
+                    <div class="feature-card glass-panel">
+                        <i data-lucide="users" class="feature-icon"></i>
+                        <h3>Intense Collaboration</h3>
+                        <p>Teams of 2-4 members pushing the boundaries of technology with expert mentors.</p>
+                    </div>
+                    <div class="feature-card glass-panel">
+                        <i data-lucide="indian-rupee" class="feature-icon"></i>
+                        <h3>Massive Prize Pool</h3>
+                        <p>₹4,00,000+ in cash prizes, API credits, internships, and exclusive swag.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Tracks -->
+    <section id="tracks" class="section bg-darker reveal">
+        <div class="container">
+            <h2 class="section-title">Problem <span class="gradient-text">Tracks</span></h2>
+            <p class="section-description">Choose the domain that ignites your passion. Solve real-world challenges.</p>
+
+            <div class="cards-grid">
+                <!-- Track 1 -->
+                <div class="track-card glass-panel">
+                    <div class="track-icon-wrapper"><i data-lucide="cpu" class="track-icon"></i></div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Harness the power of AI to build systems that learn, predict, and automate.</p>
+                    <ul class="track-list">
+                        <li>Next-Gen Accessible Education</li>
+                        <li>Predictive Healthcare Diagnostics</li>
+                        <li>Fake News & Deepfake Detection</li>
+                    </ul>
+                </div>
+                <!-- Track 2 -->
+                <div class="track-card glass-panel">
+                    <div class="track-icon-wrapper"><i data-lucide="blocks" class="track-icon"></i></div>
+                    <h3>Web3 & Blockchain</h3>
+                    <p>Build decentralized, transparent, and secure applications for the future.</p>
+                    <ul class="track-list">
+                        <li>Transparent Supply Chains</li>
+                        <li>Decentralized Identity (ZKP)</li>
+                        <li>Tokenized Climate Action</li>
+                    </ul>
+                </div>
+                <!-- Track 3 -->
+                <div class="track-card glass-panel">
+                    <div class="track-icon-wrapper"><i data-lucide="leaf" class="track-icon"></i></div>
+                    <h3>Climate & Sustainability</h3>
+                    <p>Engineer tech solutions to combat climate change and build a sustainable future.</p>
+                    <ul class="track-list">
+                        <li>Smart E-Waste Exchange</li>
+                        <li>Hyper-Local Grid Optimization</li>
+                        <li>Precision Agriculture Dashboard</li>
+                    </ul>
+                </div>
+                <!-- Track 4 -->
+                <div class="track-card glass-panel">
+                    <div class="track-icon-wrapper"><i data-lucide="lightbulb" class="track-icon"></i></div>
+                    <h3>Open Innovation</h3>
+                    <p>No limits. Solve a profound real-world problem of your choosing.</p>
+                    <ul class="track-list">
+                        <li>FinTech & Financial Inclusion</li>
+                        <li>Urban Mobility & Smart Cities</li>
+                        <li>Mental Health & Well-being</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section id="timeline" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">Event <span class="gradient-text">Timeline</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h4>Registrations Open</h4>
+                        <p>Now!</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h4>Round 1 Idea Submission Deadline</h4>
+                        <p>4th March, 11:59 PM IST</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h4>Top 40 Announcement</h4>
+                        <p>14th March, 12:00 PM IST</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h4>Offline Finals (Day 1)</h4>
+                        <p>22nd March: Hostel Check-In, Opening Ceremony & 24hr Hackathon begins.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h4>Offline Finals (Day 2)</h4>
+                        <p>23rd March: Hacking ends, Live Pitches, Judging & Prize Distribution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prizes -->
+    <section id="prizes" class="section bg-darker reveal">
+        <div class="container">
+            <h2 class="section-title">Prize <span class="gradient-text">Breakdown</span></h2>
+            <p class="section-description">₹4,00,000+ massive prize pool, alongside cloud credits, internships, and
+                exclusive premium swag.</p>
+
+            <div class="prize-podium">
+                <div class="prize-card silver glass-panel">
+                    <div class="medal">🥈</div>
+                    <h3>Runners Up</h3>
+                    <div class="prize-amount">₹75,000</div>
+                    <p>Trophy, Goodies, 1-on-1 Mentorship</p>
+                </div>
+                <div class="prize-card gold glass-panel">
+                    <div class="medal">🥇</div>
+                    <h3>Grand Champions</h3>
+                    <div class="prize-amount">₹1,50,000</div>
+                    <p>Trophy, Premium Swag, Paid Internships</p>
+                </div>
+                <div class="prize-card bronze glass-panel">
+                    <div class="medal">🥉</div>
+                    <h3>2nd Runners Up</h3>
+                    <div class="prize-amount">₹40,000</div>
+                    <p>Trophy, Goodies, Heavy Cloud Credits</p>
+                </div>
+            </div>
+
+            <div class="special-prizes grid-3">
+                <div class="mini-award glass-panel">
+                    <h4>Track Winners (x4)</h4>
+                    <p>₹15,000 each</p>
+                </div>
+                <div class="mini-award glass-panel">
+                    <h4>First-Time Hacker</h4>
+                    <p>₹25,000</p>
+                </div>
+                <div class="mini-award glass-panel">
+                    <h4>Best UI/UX Award</h4>
+                    <p>₹25,000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentors -->
+    <section id="mentors" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">Expert <span class="gradient-text">Mentors</span></h2>
+            <p class="section-description">Guiding the Top 40 teams at the offline finals.</p>
+
+            <div class="mentors-grid">
+                <div class="mentor-card glass-panel">
+                    <div class="mentor-avatar bg-gradient">AS</div>
+                    <h4>Dr. Aryan Sharma</h4>
+                    <p class="role">AI & Machine Learning</p>
+                </div>
+                <div class="mentor-card glass-panel">
+                    <div class="mentor-avatar bg-gradient">PD</div>
+                    <h4>Priya Desai</h4>
+                    <p class="role">Web3 & Blockchain</p>
+                </div>
+                <div class="mentor-card glass-panel">
+                    <div class="mentor-avatar bg-gradient">RM</div>
+                    <h4>Rohan Mehta</h4>
+                    <p class="role">Climate & Sustainability</p>
+                </div>
+                <div class="mentor-card glass-panel">
+                    <div class="mentor-avatar bg-gradient">AS</div>
+                    <h4>Ananya Singh</h4>
+                    <p class="role">Product & UI/UX</p>
+                </div>
+                <div class="mentor-card glass-panel">
+                    <div class="mentor-avatar bg-gradient">KR</div>
+                    <h4>Karthik Reddy</h4>
+                    <p class="role">Cloud Architecture</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section bg-darker reveal">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+
+            <div class="accordion">
+                <div class="accordion-item glass-panel">
+                    <button class="accordion-header">
+                        Who can participate in HACK∞GRAVITY?
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Any current college student (UG/PG) across India, regardless of branch or year, is eligible.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item glass-panel">
+                    <button class="accordion-header">
+                        Is there any registration fee?
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Yes, a nominal fee of ₹300 per person.</p>
+                        <br>
+                        <ul style="margin-left: 1.5rem; margin-bottom: 1rem; color: #ccc; list-style: none;">
+                            <li>Team of 2 = ₹600</li>
+                            <li>Team of 3 = ₹900</li>
+                            <li>Team of 4 = ₹1,200</li>
+                        </ul>
+                        <p><strong style="color: #10B981;">🎉 REFUND:</strong> If selected in TOP 40, full fee refunded
+                            to Team Leader within 7 working days of 14th March announcement.</p>
+                        <br>
+                        <p>Once selected, offline participation at the 5-star Bangalore venue — food, accommodation,
+                            resources — is completely FREE for Top 40 teams!</p>
+                        <br>
+                        <p>Queries: <a href="mailto:hackgravity726@gmail.com"
+                                style="color: var(--accent-cyan); text-decoration: none;">hackgravity726@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item glass-panel">
+                    <button class="accordion-header">
+                        How many members can a team have?
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Teams must consist of 2 to 4 members. Solo participation is strictly not allowed.
+                            Cross-college teams are highly encouraged!</p>
+                    </div>
+                </div>
+                <div class="accordion-item glass-panel">
+                    <button class="accordion-header">
+                        Will travel and accommodation be provided?
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Accommodation and luxury catering are completely covered by us at the hostel venue. Detailed
+                            travel reimbursements/guidance will be shared exclusively with the shortlisted Top 40 teams
+                            over email.</p>
+                    </div>
+                </div>
+                <div class="accordion-item glass-panel">
+                    <button class="accordion-header">
+                        Who do I contact for support?
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Reach out to our dedicated support team at <strong>hackgravity726@gmail.com</strong>. We're
+                            here 24/7 to help you out.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>HACK∞GRAVITY</h2>
+                    <p>Defy the Limits. Code the Impossible.</p>
+                </div>
+                <div class="footer-links">
+                    <p>Have questions? Email us:</p>
+                    <a href="mailto:hackgravity726@gmail.com" class="support-email">hackgravity726@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 HACK∞GRAVITY. All rights reserved.</p>
+                <!-- <div class="socials">
+                    <a href="#"><i data-lucide="twitter"></i></a>
+                    <a href="#"><i data-lucide="instagram"></i></a>
+                    <a href="#"><i data-lucide="linkedin"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Icons & Scripts -->
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
